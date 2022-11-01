@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.content {
+    background-color: #F4F4F4;
+    width: 75%;
+    margin: auto;
+}
+
+header {
+    width: 100;
+    background: black;
+    height: 90px;
+}
+
+.ancho {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.logo p a {
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+nav {
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.logo p a:hover {
+    background-color: #58c7d8;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #58c7d8;
+    border-radius: 5px;
+}
+
+main {
+    padding: 8px;
+}
+
+article {
+    width: 23%;
+    text-align: justify;
+    padding: 6px;
+    float: left;
+
+}
+
+#form {
+    height: 270px;
+    width: 400px;
+    margin-right: auto;
+    background-color:aqua;
+    padding: 10px;
+}
+
+input, textarea{
+    margin: 1px;
+    border: 1px, 1px, 1px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: rgb(92, 89, 89);
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 4px;
+}
+
+footer {
+    color: blue;
+    border-color: #58c7d8;
+    clear: both;
+}
+
+#botonArriba {
+    position: fixed;
+    bottom: 15px;
+    right: -100px;
+    width: 29px;
+    transition: all 1s;
+}
